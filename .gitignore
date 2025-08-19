@@ -1,0 +1,85 @@
+# ----------------------
+# Global ignores
+# ----------------------
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment & secrets
+.env
+.env.* 
+*.env.local
+
+# ----------------------
+# Frontend (Node.js / React / Next.js)
+# ----------------------
+/ecommerce-frontend/node_modules
+/ecommerce-frontend/.next
+/ecommerce-frontend/.turbo
+/ecommerce-frontend/.vercel
+/ecommerce-frontend/out
+/ecommerce-frontend/dist
+/ecommerce-frontend/build
+
+# ----------------------
+# Backend (Python / FastAPI)
+# ----------------------
+/ecommerce-api/__pycache__/
+/ecommerce-api/*.pyc
+/ecommerce-api/*.pyo
+/ecommerce-api/*.pyd
+/ecommerce-api/.venv
+/ecommerce-api/venv
+/ecommerce-api/env
+/ecommerce-api/.mypy_cache
+/ecommerce-api/.pytest_cache
+/ecommerce-api/.coverage
+/ecommerce-api/.coverage.*
+/ecommerce-api/.cache
+/ecommerce-api/.DS_Store
+
+# Uploads & generated files
+/ecommerce-api/uploads
+/ecommerce-api/media
+/ecommerce-api/staticfiles
+
+# ----------------------
+# Python build artifacts
+# ----------------------
+*.egg-info
+*.egg
+*.manifest
+*.spec
+*.lock
+
+# ----------------------
+# Package managers
+# ----------------------
+pip-wheel-metadata/
+pip-log.txt
+poetry.lock
+Pipfile.lock
+
+# ----------------------
+# Others
+# ----------------------
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
