@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://ecommerce-1qt7vusvh-hashims-projects-f80c81ee.vercel.app';
+const API_URL = 'https://ecommerce-api-six-phi.vercel.app/';
 
 
 // Create axios instance with credentials
