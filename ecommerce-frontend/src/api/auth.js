@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://ecommerce-1qt7vusvh-hashims-projects-f80c81ee.vercel.app';
+
 
 // Create axios instance with credentials
 const api = axios.create({

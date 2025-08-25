@@ -25,7 +25,7 @@ const LoginForm = () => {
       const data = await login(values.email, values.password);
       
       // Fetch current user data
-      const userData = await fetch('http://localhost:8000/auth/me', {
+      const userData = await fetch('https://ecommerce-api-six-phi.vercel.app/', {
         headers: {
           'Authorization': `Bearer ${data.access_token}`
         }
